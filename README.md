@@ -11,7 +11,7 @@ This project is composed of two python files and twelve html files:
 4.	counting the number of entries for each type of operation
 5.	deriving a new dataset containing only the information about entire chromosomes.
 6.	calculating the fraction of unassembled sequences from source GRCh38
-7.	obtaining a new dataset containing only entries from source ensembl , havana and ensembl_havana
+7.	obtaining a new dataset containing only entries from source ensembl, havana and ensembl_havana
 8.	counting the number of entries for each type of operation for the dataset containingonly entries from source ensembl , havana and ensembl_havana
 9.	returning the gene names from the dataset containing containing only entries from source ensembl , havana and ensembl_havana
 
