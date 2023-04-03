@@ -35,8 +35,8 @@ https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 ## Libraries
 During this project we used pandas and Flask, importing them in the files:
 
-import pandas as pd
-from flask import Flask, render_template
+``import pandas as pd
+from flask import Flask, render_template``
 
 ## CRC Cards
 We provide the Class Responsibility Collaboration Cards inside our website, where we describe the design of our Software. Said cards were created with the help of **Visual Paradigm**
