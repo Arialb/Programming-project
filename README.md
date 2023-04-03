@@ -20,7 +20,7 @@ This project is composed of two python files and twelve html files:
 •	**Html files**, each file corresponded to an active function in the gff3_database class, plus an homepage where you can se the description of our project and choose which operations you want to see
 
 ## Templates
-This folder contains the templates that were used to implement App.py to create the Web page
+This folder contains the templates that were used to implement **App.py** to create the Web page
 
 ## Data
 
@@ -38,7 +38,8 @@ During this project we used pandas and Flask, importing them in the files:
 import pandas as pd
 from flask import Flask, render_template
 
-
+## CRC Cards
+We provide the Class Responsibility Collaboration Cards inside our website, where we describe the design of our Software. Said cards were created with the help of **Visual Paradigm**
 
 ## Creators 
 Arianna Bellezza, Francesco Luciano Cocci
