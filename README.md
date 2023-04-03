@@ -1,5 +1,6 @@
 # Programming-project
 This project is composed of two python files and twelve html files:
+
 •	Operations.py, where there are two classes, one named gff3_databasereader, thanks to which we were able to read the GFF3 file and transforming it into a readable dataset for the user. This was also thanks to the use of pandas, which is an open source Python package that is most widely used for data science/data analysis and machine learning tasks. The other class was named gff3_database, which contains eleven functions that have various aims, such as:
 1.	obtaining basic information about the dataset and return a  list of unique sequence IDs, name, source and type
 2.	obtaining the list of unique type of operations available in the dataset
