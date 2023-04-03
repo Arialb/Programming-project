@@ -19,6 +19,9 @@ This project is composed of two python files and twelve html files:
 
 •	**Html files**, each file corresponded to an active function in the gff3_database class, plus an homepage where you can se the description of our project and choose which operations you want to see
 
+## Templates
+This folder contains the templates that were used to implement App.py to create the Web page
+
 ## Data
 
 Here you can download the dataset that we worked on, which is a GFF file , commonly used to analyse genomic data https://www.dropbox.com/s/11yzbl0dpyanvyi/Homo_sapiens.GRCh38.85.gff3.gz?dl=0
