@@ -24,9 +24,12 @@ This folder contains the templates that were used to implement App.py to create 
 
 ## Data
 
-Here you can download the dataset that we worked on, which is a GFF file , commonly used to analyse genomic data https://www.dropbox.com/s/11yzbl0dpyanvyi/Homo_sapiens.GRCh38.85.gff3.gz?dl=0
+Here you can download the dataset that we worked on, which is a GFF file , commonly used to analyse genomic data 
+
+https://www.dropbox.com/s/11yzbl0dpyanvyi/Homo_sapiens.GRCh38.85.gff3.gz?dl=0
 
 If you want to know more about this kind of files, here we provide a link with exaustive explenations about GFF3
+
 https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 
 ## Libraries
