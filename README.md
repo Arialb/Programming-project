@@ -35,7 +35,8 @@ https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md
 ## Libraries
 During this project we used pandas and Flask, importing them in the files:
 
-```import pandas as pd
+```
+import pandas as pd
 from flask import Flask, render_template
 ```
 
