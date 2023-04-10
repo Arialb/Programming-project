@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<style>
+body{
+	background-color: #BFD9F2;
+}
+</style>
+<head>
+    <style>
+                        .button {
+                            display: inline-block;
+                            padding: 4px 7px;
+                            font-size: 14px;
+                            cursor: pointer;
+                            text-align: center;
+                            text-decoration: none;
+                            outline: none;
+                            color: #fff;
+                            background-color: #84A7CD;
+                            border: none;
+                            border-radius: 5px;
+                            box-shadow: 0 5px #3768A7;
+                            }
+                        .button:hover {background-color: #bebebe}
+                        .button:active {
+                            background-color: #6a5acd;
+                            box-shadow: 0 5px #a0a0a0;
+                            transform: translateY(4px);
+
+
+    </style>
+</head>
+
+
+
+
+<body>
+<center><big><fieldset style="background-color: #FFFFFF"><font face="Helvetica" size="7" class='under' style="color:#244277;"><b>Human Genome Specification</font></b></fieldset></big></center>
+</br>
+
+<font face="Bedrock" size="4" style="color:#000000;">
+   <p>This project has the aim to analyse and provide a better understanding of the contents of the human genomic data, which were provided in a GFF3 file format.
+    Said format is well known in the studies of genomic data, not only from the human genome, but also from any species.</p>
+</font>
+
+
+<font face="Bedrock" size="4" style="color:#000000;">
+   <em><p><marquee scrollamount="11"> Each button in this page will bring you to a different part of the site that contain different functions, try it yourself!</marquee></em></p>
+</font>
+
+
+<font class="under" face="Bedrock" size="4" style="color:#000000;">
+    <b>Choose a command of your choice:</b>
+</font>
+
+
+<ol type="1">
+    <li><font face="Bedrock" size="3" class="first_page"><b> Get basic information of about the dataset:</font></li></b>
+    </br>
+        <form method="get" action="/op1">
+			<button class="button" type="submit">Info</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="second_page"><b>List of unique sequence IDs available in the dataset:</font></li></b>
+    </br>
+        <form method="get" action="/op2">
+			<button class="button" type="submit">SeqID</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="third_page"><b>List of unique type of operations available in the dataset:</font></li></b>
+    </br>
+        <form method="get" action="/op3">
+		  <button class="button" type="submit">Types</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="fourthuser_page"><b>The count of the number of features provided by the same source:</font></li></b>
+    </br>
+        <form method="get" action="/op4">
+		  <button class="button" type="submit">N° of Features</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="fifth_page"><b>The count of the number of entries for each type of operation:</font></li></b>
+    </br>
+        <form method="get" action="/op5">
+		  <button class="button" type="submit">N° of entries</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="sixthuser_page"><b>New dataset that only contains the information about entire chromosomes:</font></li></b>
+    </br>
+        <form method="get" action="/op6">
+		  <button class="button" type="submit">New Dataset</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="seventh_page"><b>The fraction of unassembled sequences from source GRCh38:</font></li></b>
+    </br>
+		<form method="get" action="/op7">
+		  <button class="button" type="submit">Value of Supercontigs</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="eighthuser_page"><b>New dataset that only contains entries from source ensembl , havana and ensembl_havana:</font></li></b>
+    </br>
+        <form method="get" action="/op8">
+		  <button class="button" type="submit">Other Sources</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="ninthuser_page"><b>The number of entries for each type of operation for the dataset containing containing only entries from source ensembl , havana and ensembl_havana:</font></li></b>
+    </br>
+        <form method="get" action="/op9">
+		  <button class="button" type="submit">Count</button>
+		</form>
+    <br></br>
+    <li><font face="Bedrock" size="3" class="eigth_page"><b>The gene names from the dataset containing containing only entries from source ensembl ,havana and ensembl_havana:</b></font></li>
+    </br>
+       <form method="get" action="/op10">
+		  <button class="button" type="submit">Gene</button>
+	   </form>
+    <br></br>
+<br></br>
+<form method="get" action="/">
+    <button class="button" type="submit">Back</button>
+    </form>
+</body>
+</html>
