@@ -15,6 +15,8 @@ This project is composed of two python files and twelve html files:
 8.	counting the number of entries for each type of operation for the dataset containingonly entries from source ensembl , havana and ensembl_havana
 9.	returning the gene names from the dataset containing containing only entries from source ensembl , havana and ensembl_havana
 
+The decorator has an important role.In fact thanks to it we can activate or inactivate the operations of the program.For example the operation number five has been inactivated so the output of this operation, instead of being the classical result, will be:"Operation is inactive".
+So we can now define what a decorator is:A decorator is a tool that allows us to extend and modify the behavior of functions and classes without directly alter the source code.
 •	**App.py**, where ,with the help of Flask, pandas and Operations.py, we were able to implement the Web-based user interface 
 
 •	**Html files**, each file corresponded to an active function in the gff3_database class, plus an homepage where you can se the description of our project and choose which operations you want to see
